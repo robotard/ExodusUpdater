@@ -15,7 +15,7 @@ exodusVer=$(exodus --version)
 echo "Current verion = $exodusVer"
 
 #This gives us the latest version (albeit the macOS one that apparently releases at same time as Ubuntu)
-exodusLatest=$(curl -sS https://updates.exodus.io/releases/feed/darwin.json | jq -r '.version')
+exodusLatest=$(curl -sS https://updates.exodus.io/releases/feed/darwin.json | jq -r '.version' darwin.json)
 echo "Latest version = $exodusLatest"
 echo
 
@@ -28,7 +28,7 @@ else
     echo "Not latest Exodus"
     echo
     #This should be the file format for the .deb
-    exodusDownload="exodus_"$exodusLatest"_amd64.deb"
+    exodusDownload="exodus-linux-x64-"$exodusLatest".deb"
     echo "Latest version is - $exodusDownload"
     echo
     
