@@ -3,7 +3,8 @@
 # Exodus updater
 # Rob Hendricks (robstahendricks@gmail.com)
 # @https://github.com/robotard
-# V 1.0 - 19/10/2020
+# V 1.0.1 - 24/06/2021
+# CHANGES - prisoner00 spotted that the URL for pulling the release had been changed - URL fixed 
 # F&OS - Do as you wish. Simple script, but your risk ;)
 
 #The URL for Exodus releases... 
